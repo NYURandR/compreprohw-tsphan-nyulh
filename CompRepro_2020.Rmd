@@ -1,6 +1,6 @@
 ---
 title: "Computational Reproducibility"
-author: "Fred LaPolla"
+author: "Timothy S. Phan"
 date: "10/14/2020"
 output: html_document
 ---
@@ -25,9 +25,15 @@ To add a chunk either click on the green Insert button and choose R or hit Comma
 
 2) Please describe one of the ways that Wilson et. al. suggest is a good practice for computational reproducibility and how a tool like R can be used. Write your answer below.
 
+Document all the steps used to process data via code (scripts).  This can make it trivial to redo and automate analysis steps as new data is made available.  Tools like R as well as Markdown that permit colocation of code with documentation facilitates collaborative and reproducible research.
+
 
 3) Add a code chunk and find the square root of 4 to the 13th power. If you are unsure of what command to use, google it. 
 
+```
+> sqrt(4)^13
+[1] 8192
+```
 
 4) Push this homework to the GitHub repository for the homework. 
 
